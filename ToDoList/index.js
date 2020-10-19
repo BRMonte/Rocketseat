@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var listElement = document.querySelector('#app ul');
 var inputElement = document.querySelector('#app input');
 var buttonElement = document.querySelector('#app button');
@@ -61,3 +62,8 @@ function deleteTarefa(pos) {
 function saveToStorage() {
   localStorage.setItem('list_tarefas', JSON.stringify(tarefas));
 };
+=======
+var listElement = document.querySelector('#app ul'); //armazeno na variavel o elemento UL que da dentro da div #app
+var inputElement = document.querySelector('#app input'); 
+var buttonElement = document.querySelector('#app button'); 
+>>>>>>> 6581929d77169ae58c517e9ad7e5f5c182cf09e8
